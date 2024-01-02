@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <script src="contorle.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post"></form>
+    <fieldset><legend>ajout d'un</legend>
+        piece: <br><select name="piece" id="piece">
+    <option value="0">Choisir une piece</option>
+    <option value="1">le trésor</option>
+    <option value="2">le gardien</option>
+    <option value="3">les soldats de la lune</option>
+    <option value="4">l'eternel de retour</option>
+
+</select><br>
+salle: <br><select name="salle" id="salle">
+    <option value="0">Choisir une salle</option>
+    <option value="1">théatre municipal</option>
+    <option value="2">quatrieme art</option>
+    <option value="3">l'etoile de Nord</option>
+    <option value="4">Espace l'Artisto</option><br>
+</select><br>
+    <input name="dtj" id="days" ><input name="dtm" id="mois" >/<input name="dta" id="year">(JJ/MM/AAAA)<br>
+	<input type="reset" value="Annuler">
+	<input type="submit" value="Ajouter" onclick="verif1()">  
+</fieldset>
+
+</body>
+</html>
